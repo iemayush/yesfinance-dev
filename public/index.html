@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/library/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div id="logo-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="images/logo.png"/>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div id="nav-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="nav" id="navigation">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">PRODUCTS</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="#">FEATURES</li>
+                            <li><a href="#">BLOG</a></li>
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="slider-section">
+            <div class="slide-item" >
+                <img src="images/slider-1.jpg" style='object-fit: contain'></img>
+                <div class="slide-image-caption">
+                    <div class="container caption-wrapper">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="caption-card">
+                                    <h1 class="slider-title">Your slider caption heading will be here</h1>
+                                    <p class="slider-text">Try our a good design template for your loan company.</p>
+                                    <button class = "btn btn-lg btn-primary" type="button">FIND OUT MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="slide-item slide-item-image">
+                <img src="images/slider-2.jpg" style='object-fit: contain'></img>
+                <div class="slide-image-caption">
+                    <div class="container caption-wrapper">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="caption-card">
+                                    <h1 class="slider-title">Hey THis Is Awesome</h1>
+                                    <p class="slider-text">Try our a good design template for your loan company.</p>
+                                    <button class = "btn btn-lg btn-primary" type="button">FIND OUT MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="slide-item slide-item-image">
+                <img src="images/slider-3.jpg" style='height: 100%; width: 100%; object-fit: contain'></img>
+                <div class="slide-image-caption">
+                    <div class="container caption-wrapper">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="caption-card">
+                                    <h1 class="slider-title">How precisely You like This Design</h1>
+                                    <p class="slider-text">Try our a good design template for your loan company.</p>
+                                    <button class = "btn btn-lg btn-primary" type="button">FIND OUT MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="slide-shadow"></div>
+            <a class="prev" onclick="sliderNameSpace.previousSlide()">&#10094;</a>
+            <a class="next" onclick="sliderNameSpace.nextSlide()">&#10095;</a>
+            <div class="row dots">
+                <div class="col-lg-12">    
+                    <span class="dot active" onclick="sliderNameSpace.currentSlide(0)"></span> 
+                    <span class="dot" onclick="sliderNameSpace.currentSlide(1)"></span> 
+                    <span class="dot" onclick="sliderNameSpace.currentSlide(2)"></span> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
